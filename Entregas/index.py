@@ -1,5 +1,5 @@
-from Entregas.users import Users, Client
-
+from usuarios import *
+from comprador import *
 # Crear una instancia de la clase Users
 user_manager = Users()
 
@@ -23,14 +23,14 @@ def create_client():
 
 while True:
     print("\nMenu")
-    print("1- Sign In")
-    print("2- Show User List")
-    print("3- Login")
-    print("4- Save Users")
-    print("5- Create Client")
-    print("6- Buy")
-    print("7- Recharge Money")
-    print("8- Exit")
+    print("\n1- Sign In")
+    print("\n2- Show User List")
+    print("\n3- Login")
+    print("\n4- Save Users")
+    print("\n5- Create Client")
+    print("\n6- Buy")
+    print("\n7- Recharge Money")
+    print("\n8- Exit")
     selection = input("Enter an option: ")
 
     if selection == "1":
