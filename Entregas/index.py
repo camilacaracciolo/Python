@@ -1,4 +1,4 @@
-from users import Users, Client
+from Entregas.users import Users, Client
 
 # Crear una instancia de la clase Users
 user_manager = Users()
@@ -15,7 +15,7 @@ def create_client():
     address = input("Enter the client's address: ")
     money = int(input("Enter the client's initial amount of money: "))
     
-    # Crear instancia de Cliente y agregarla a la lista
+        
     client_obj = Client(name, email, address, money)
     clientes.append(client_obj)
     
